@@ -8,7 +8,7 @@ function Contacts() {
     <h1 className=' underline underline-offset-8 text-blue-500 decoration-slate-300  text-dark mb-2 text-4xl font-semibold dark:text-white text-center'>Contact Us</h1>
             <div className="grid sm:grid-cols-2 items-center gap-16 p-8 mx-auto max-w-4xl bg-white shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] rounded-md text-[#333] my-12">
                 <div>
-                    <h1 className="text-3xl font-extrabold">Let's Talk</h1>
+                    <h1 className="text-3xl font-extrabold text-green-500">Let's Talk</h1>
                     <p className="text-sm text-gray-400 mt-3">Are You Ready to Start Your Journalism Journey?</p>
                     <div className="mt-12">
                         <h2 className="text-lg font-extrabold">Email</h2>

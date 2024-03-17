@@ -23,7 +23,7 @@ useEffect(() => {
 
   return (
    <>
-<header className={`sticky  z-50 top-0 flex max-w-screen-xl flex-col overflow-hidden px-4 py-4 text-blue-900 md:mx-auto md:flex-row md:items-center ${scrollPos > 40 ? 'bg-white' : ''}`}>    
+<header className={`sticky  z-50 top-0 flex max-w-screen-xl flex-col overflow-hidden px-4 py-4 text-blue-700 md:mx-auto md:flex-row md:items-center ${scrollPos > 40 ? 'bg-white' : ''}`}>    
     <a href="#" className="flex cursor-pointer items-center whitespace-nowrap text-2xl font-black">
       <span className="mr-2 text-4xl text-blue-500">
 <img className='w-16' src={logo} alt='img'/>
@@ -44,7 +44,7 @@ useEffect(() => {
         <li className="md:mr-12"><a href="#course"  className='flex gap-2'><FaBook className='mt-[4px]' />Course</a></li>
         <li className="md:mr-12"><a href="#contact"  className='flex gap-2'><MdAttachEmail className='mt-[4px]'/>Contact</a></li>
         <li className="md:mr-12">
-          <button className="rounded-full border-2 border-blue-900 px-6 py-1 text-blue-900 transition-colors hover:bg-blue-900 hover:text-white">Login</button>
+          <button className="rounded-full border-2 border-blue-700 px-6 py-1 text-blue-700 transition-colors hover:bg-blue-500 hover:text-white">Login</button>
         </li>
       </ul>
     </nav>
