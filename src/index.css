@@ -6,4 +6,6 @@ body{
     font-family: 'Times New Roman'!important;
     width: 100%;
     overflow-x: hidden;
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity)) !important;
 }
