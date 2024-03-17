@@ -7,21 +7,24 @@ const About = () => {
     content:"Throughout his illustrious career, Mr. Arun has received numerous accolades for his exceptional work in journalism. His articles have been recognized for their depth, accuracy, and impact, earning him a reputation as a trusted source of news. He has interviewed world leaders, covered major global events, and brought to light stories that have sparked change.",
     dataaos:"fade-up",
     dataaostime:"1000",
-    bg:"bg-lime-500"
+    bg:"bg-lime-500",
+    text:"text-green-400"
   },
     {title:"Teaching Approach",
     subtile:"A Unique Approach to Learning",
     content:" Mr. Arun believes in a hands-on approach to learning. His course is designed to not just teach, but also to provide a real-world understanding of journalism. Students will have the opportunity to engage in interactive assignments, participate in mock press conferences, and receive personalized feedback on their work.",
     dataaos:"fade-up",
     dataaostime:"2000",
-    bg:"bg-fuchsia-500"
+    bg:"bg-fuchsia-500",
+    text:"text-fuchsia-400"
   },
     {title:"Vision",
     subtile:"Shaping the Future of Journalism",
     content:"Mr. Arun envisions a future where journalists are not just reporters, but also influencers who can shape public opinion and drive change. Through his course, he aims to equip the next generation of journalists with the skills and knowledge they need to make a difference in the world",
     dataaos:"fade-down",
     dataaostime:"3000",
-    bg:"bg-red-500"
+    bg:"bg-red-500",
+    text:"text-red-400"
   },
   ]
   return (
@@ -34,7 +37,7 @@ const About = () => {
          About Us
          </h2>
       </div>
-        <div className="container mx-auto px-[7.5rem]">
+        <div className="container mx-auto lg:px-[7.5rem] px-8">
           <div className="flex flex-wrap items-center justify-between -mx-4">
             <div className="w-full px-4 lg:w-6/12">
               <div className="flex items-center -mx-3 sm:-mx-4">
@@ -642,7 +645,7 @@ const About = () => {
             <div className="w-full px-4 lg:w-1/2 xl:w-5/12"  data-aos-duration="500" data-aos="fade-left">
               <div className="mt-10 lg:mt-0">
                
-                <h2 className="mb-5 text-3xl font-bold text-slate-500 dark:text-white sm:text-[40px]/[48px]">
+                <h2 className="mb-5 text-3xl font-bold text-slate-500  sm:text-[40px]/[48px]">
                 Your Guide to Journalism - <span className='text-cyan-600'> Mr. </span><span className='text-amber-500'>A</span><span className='text-red-500'>r</span><span className='text-blue-600'>u</span><span className='  text-green-500'>n</span>
                 </h2>
                 <p className="mb-5 text-base text-gray-500 dark:text-dark-6  leading-7">
@@ -659,9 +662,9 @@ const About = () => {
     <div class="flex flex-col lg:flex-row" >
       {paragraphs.map((items,index)=>(
 
-        <div key={index} className="w-full p-4 text-left lg:w-1/3"data-aos={items.dataaos}  data-aos-duration={items.dataaostime}>
+        <div key={index} className="w-full  p-4 text-left lg:w-1/3 " data-aos={items.dataaos}  data-aos-duration={items.dataaostime}>
         <hr className={`mb-4 h-1.5 w-1/4 ${items.bg}`} />
-        <h3 className=" text-4xl font-light leading-10 text-slate-700">{items.title}</h3>
+        <h3 className={`text-3xl md:text-4xl font-light leading-10 ${items.text}`}>{items.title}</h3>
         <h5 className=" text-xl font-light leading-10 text-slate-600 mt-3">{items.subtile}</h5>
         <p className=" text-[16px] my-4 text-gray-500">{items.content}</p>
       </div>

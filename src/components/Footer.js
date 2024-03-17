@@ -25,6 +25,9 @@ const Footer = () => {
                       <li className="mb-4">
                           <a href="/" className="hover:underline">News</a>
                       </li>
+                      <li className="mb-4">
+                          <a href="/" className="hover:underline">Media</a>
+                      </li>
                       
                   </ul>
               </div>
